@@ -5,5 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
 }
+
+.app {
+
+  width: 50%;
+  margin: 0 auto;
+  background-color: coral;
+  padding: 3em;
+}
+
 
