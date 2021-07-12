@@ -5,8 +5,8 @@ function TodoList() {
           always use className instead of class 
           curly braces are javascript 
         */}
-          <input type="checkbox" name="item" id="list-1" />
-          <label for="list-1">Placeholder</label>
+          <input type="checkbox" name="item"/>
+          <p className="checkbox-item">Placeholder</p>
   
         </div>
     )

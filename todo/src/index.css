@@ -11,12 +11,25 @@ body {
   place-items: center;
 }
 
-.app {
+p {
+  margin: 0;
+}
 
-  width: 50%;
+.app {
+  width: 70%;
   margin: 0 auto;
-  background-color: coral;
-  padding: 3em;
+  background-color: rgb(231, 227, 227);
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox-item {
+  margin-left: 0.75em;
+}
+
+input[type=checkbox]:focus {
+  outline: 0;
 }
 
 
