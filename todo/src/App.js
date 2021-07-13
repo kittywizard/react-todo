@@ -1,13 +1,18 @@
 
 import TodoItem from "./components/TodoItem";
+import Header from "./components/Header";
 
 function App() {
 
   return (
-    <div>
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
+    <div className="container">
+      <Header />
+      <div class="list-container">
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+
+      </div>
     </div>
 
   );
